@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import { connect } from 'react-redux'
+import { setVisibilityFilter } from '../actions'
 
 export default class LoginPopup extends Component {
   constructor(props) {
